@@ -1,5 +1,5 @@
 
-//Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr.
+//Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr...
 
 
 function sum(arr, n) {
@@ -8,4 +8,6 @@ function sum(arr, n) {
     } else {
       return sum(arr, n - 1) + arr[n - 1];
     }
-  }
+    console.log(sum)
+  } 
+
