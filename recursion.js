@@ -8,6 +8,6 @@ function sum(arr, n) {
     } else {
       return sum(arr, n - 1) + arr[n - 1];
     }
-    console.log(sum)
-  } 
+
+    } 
 
